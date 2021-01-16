@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/ normalize.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Adopta</title>
+</head>
+<body>
+    <header class="header_azul">
+            <div class="barra-inicio">
+                <div class="logo">
+                    <a href="index.html"><img src="./img/logo.png" alt="Logo"></a>
+                </div>
+
+                <nav class="navegacion"> 
+                    <a href="contactanos.html">Contactanos</a>
+                    <a href="donaciones.html">Donaciones</a>
+                    <a href="nuestrosamigos.hmtl">Nuestros amigos</a>
+                </nav>
+            </div>
+    </header>
+
+    <main class="adocion_principal">
+        <h1>Adopción</h1>
+
+        <div class="datos">
+            <div class="datos_nombre">
+                <input class="boton" type="button" value="Nombre Completo" onclick="nombre()"><br><br><br><br>
+                <input class="boton" type="button" value="Dirección" onclick="direccion()"><br><br><br><br>
+                <input class="boton" type="button" value="Nombre del Lomito" onclick="lomito()"><br><br><br><br>
+                <input class="boton" type="button" value="Correo Electrónico" onclick="correo()"><br><br><br><br>
+            </div>
+            <div class="datos_fecha_ine">
+                <div class="datos_ine">
+                    <h4><i class="fas fa-camera"></i> Identificación oficial</h4>
+                    <p>Favor de presentarse con esta misma identificación el día de su cita.</p>
+                </div>
+                <div class="datos_fecha">
+                    <h3>Fecha de cita</h3><br><br>
+                    <input class="boton" type="button" value="Día/Mes/año" onclick="diamesaño()"><br><br>
+                    <p>La fecha asignada y el horario deberán ser respetados, se cuenta con una tolerancia de 15 a 20 minutos con aviso previo por llamada, en el caso de no llegar a tiempo o no presentarse, el proceso será CANCELADO.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="datos_finalizar">
+            <a href="index.html">Finalizar</a>
+        </div> 
+    </main>
+
+    <footer class="footer_adopta">
+        <img src="./img/logo.png" alt="Logo">
+    </footer>
+
+    <script src="./js/estilos.js"></script>
+
+
+</body>
+</html>

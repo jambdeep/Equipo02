@@ -1,0 +1,292 @@
+html{
+    font-size: 62.5%;
+    /* normalizar para rems */
+}
+
+@font-face{
+    font-family: "Montserrat",
+    sans-serif;
+    src: url(../Montserrat.zip);
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    max-width: 140rem;
+}
+
+
+/* Header foto perrito hermoso */
+
+
+
+.header{
+   max-height: auto;
+   margin: 0 auto;
+}
+
+.imagen_portada{
+    background-image: url(../img/header.jpg);
+    height: 100vh;
+    min-height: 5rem;
+    background-position: center center;
+    background-size: cover;
+    margin-top: -7rem;
+}
+.barra-inicio{
+    margin: 5rem 5rem 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a img{
+    max-width: 10rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.navegacion a{
+    text-decoration: none;
+    padding: 2rem;
+    float: right;
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    text-shadow: 1rem .5rem .5rem black;
+    font-weight: 400;
+}
+.navegacion a:hover{
+    color: cornflowerblue;
+}
+
+
+
+/* Quienes somos y valores  */
+
+
+
+
+.quienes-somos{
+    text-align: center;
+}
+.centrar-texto, h1, h2{
+    padding: 8rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #037594;
+    font-weight: 600;
+}
+.quienes-somos p{
+    font-size: 1.8rem;
+    margin: 0 8rem 0 8rem;
+}
+.valores{
+    display: inline-block;
+    max-width: 40rem;
+}
+
+
+
+/* Suabes lomitos */
+
+
+
+
+.nuestros-amigos{
+    justify-content: space-between;
+}
+.contenedor1{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: calc(25% - 3rem);
+    text-align: center;
+}
+.contenedor_individual h4{
+    text-align: center;
+    color: #037594;
+    font-weight: 600;
+}
+.contenedor_individual p{
+    padding: 0 3rem 0 3rem;
+}
+.imagen-perro img{
+    max-width: 100%;
+}
+.imagen-perrolili img{
+    max-width: 31.6rem;
+}
+
+
+
+/* Adopta (Sección azul)*/
+
+
+
+
+.adopta {
+    background-color: #037594;
+    margin-top: 8rem;
+}
+.adopta h2{
+    color: white;
+
+}
+.contenedor2{
+    display: flex;
+    text-align: left;
+    font-size: 1.5rem;
+    color: rgb(65, 63, 63);
+    max-width: 100rem;
+}
+.proseso_texto{
+    max-width: 40rem;
+    margin: 0 0 12rem 18rem;
+    padding: 1.5rem 5rem 0 0 ;
+}
+.proceso_texto_parrafo{
+    font-size: 2rem;
+    font-size: 1.8rem;
+    text-align: justify;
+    margin-bottom: 22rem;
+    color: white;
+}
+.boton{
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    display: flex block;
+    font-size: 2rem;
+    margin: -20rem 0 0 1rem;
+}
+.video{
+    width: 10rem;
+}
+/* .boton-principal{
+    
+    padding: -2rem;
+} */
+
+
+/* Casos de exito */
+
+
+
+.exito{
+    max-width: 140rem;
+}
+.proceso_foto{
+    display: flex;
+    justify-content: space-between;
+}
+.proceso_foto img{
+    max-width: 25.5rem;
+    max-height: 20rem;
+}
+
+
+
+/* footer */
+
+.footer{
+    background-color: #037594;
+}
+.footer_azul{
+    display: flex;
+    margin-top: 3rem;
+    text-decoration: none;
+    color: white;
+    padding: 4rem;
+}
+.contactanos{
+    text-align: right;
+    padding: 4rem 8rem 4rem 4rem;
+    margin-left: 20rem;
+}
+.footer_nav a{
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+.footer_negro{
+    background-color: #02485c;
+}
+.footer_redes{
+    text-align: center;
+    padding: 3rem;
+}
+.footer_redes a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+.navegacion2{
+    margin: 6rem 0 0 0;
+}
+
+
+
+
+
+
+
+/* Adopta */
+
+
+
+.header_azul{
+    background-color: #037594;
+    margin: -5rem;
+}
+.datos{
+    background-color: #037594;
+    margin: 0 5rem 0 5rem;
+    display: flex;
+    margin-bottom: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+.datos_nombre{
+   margin: 5rem;
+}
+.datos_fecha_ine{
+    margin-left: 27rem;
+    max-width: 43rem;
+}
+.datos_ine{
+    padding: 3rem;
+    background-color: white;
+    margin-top: 2rem;
+}
+.datos_fecha h3{
+    margin-top: 6rem;
+    color: white;
+}
+.datos_fecha p{
+    color: white;
+    text-align: justify;
+}
+.datos_finalizar{
+    margin-bottom: 10rem;
+}
+.datos_finalizar a{
+    max-width: 20rem;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 55rem;
+    padding: 1rem 4rem 1rem 4rem;
+    background-color: #02485c;
+    color: white;
+    font-weight: 600;
+}
+.footer_adopta{
+    background-image: url(../img/perros-felices-corriendo\ copy.jpg);
+    height: 80vh;
+    min-height: 5rem;
+    background-position: center center;
+    background-size: cover;
+}
+.footer_adopta img{
+    text-align: center;
+    max-width: 10rem;
+    margin-left: 58rem;
+    margin-top: 40rem;
+}
