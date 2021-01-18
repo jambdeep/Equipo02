@@ -172,10 +172,6 @@ h1, h2{
 .video{
     width: 10rem;
 }
-/* .boton-principal{
-    
-    padding: -2rem;
-} */
 
 
 /* Casos de exito */
@@ -248,6 +244,7 @@ h1, h2{
 .header_azul{
     background-color: #037594;
     margin: -5rem;
+    max-width: 131.5rem;
 }
 .datos{
     background-color: #037594;
@@ -302,4 +299,28 @@ h1, h2{
     max-width: 10rem;
     margin-left: 58rem;
     margin-top: 40rem;
+}
+
+
+
+
+
+/* convive */
+
+
+
+.contenedor_dona{
+    display: flex;
+    text-align: center;
+    margin-left: 33rem;
+    max-width: 100rem;
+}
+
+.dona_perro img{
+max-width: 30rem;
+}
+.contenedor_dona p{
+    max-width: 40rem;
+    padding: 2rem;
+    text-align: justify;
 }
