@@ -14,7 +14,9 @@ body{
     font-weight: 300;
     max-width: 140rem;
 }
-
+.negritas{
+    font-weight: 600;
+}
 
 /* Header foto perrito hermoso */
 
@@ -65,24 +67,29 @@ body{
 
 
 .quienes-somos{
+    justify-content: space-between;
     text-align: center;
-}
-.centrar-texto, h1, h2{
-    padding: 8rem;
-    text-align: center;
-    font-size: 3rem;
-    color: #037594;
-    font-weight: 600;
+    margin-left: -1.4rem;
 }
 .quienes-somos p{
     font-size: 1.8rem;
     margin: 0 8rem 0 8rem;
 }
 .valores{
-    display: inline-block;
-    max-width: 40rem;
+    display: flex;
+    justify-content: space-between;
 }
-
+.valores_individual{
+    flex-basis: calc(80% - 1rem);
+    text-align: center;
+}
+h1, h2{
+    padding: 8rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #037594;
+    font-weight: 600;
+}
 
 
 /* Suabes lomitos */
@@ -127,7 +134,6 @@ body{
 }
 .adopta h2{
     color: white;
-
 }
 .contenedor2{
     display: flex;
@@ -145,16 +151,23 @@ body{
     font-size: 2rem;
     font-size: 1.8rem;
     text-align: justify;
-    margin-bottom: 22rem;
+    margin-bottom: 5rem;
     color: white;
 }
 .boton{
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+}
+.boton a{
     text-decoration: none;
     text-align: center;
     padding: 1rem;
     display: flex block;
     font-size: 2rem;
-    margin: -20rem 0 0 1rem;
+    color: #037594;
+    background-color: white;
+    font-weight: 600;
+    margin-left: 1rem;
 }
 .video{
     width: 10rem;
