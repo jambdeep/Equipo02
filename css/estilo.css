@@ -12,7 +12,7 @@ body{
     font-family: "Montserrat", sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
-    max-width: 140rem;
+    margin: 0 auto; 
 }
 .negritas{
     font-weight: 600;
@@ -141,10 +141,11 @@ h1, h2{
     font-size: 1.5rem;
     color: rgb(65, 63, 63);
     max-width: 100rem;
+    margin: auto;
 }
 .proseso_texto{
     max-width: 40rem;
-    margin: 0 0 12rem 18rem;
+    margin: 0 0 12rem 6rem;
     padding: 1.5rem 5rem 0 0 ;
 }
 .proceso_texto_parrafo{
@@ -180,6 +181,7 @@ h1, h2{
 
 .exito{
     max-width: 140rem;
+    margin: auto;
 }
 .proceso_foto{
     display: flex;
@@ -309,13 +311,15 @@ h1, h2{
 
 
 
+/* Convive introduccion */
+
+
 .contenedor_dona{
     display: flex;
     text-align: center;
     margin-left: 33rem;
     max-width: 100rem;
 }
-
 .dona_perro img{
 max-width: 30rem;
 }
@@ -323,4 +327,69 @@ max-width: 30rem;
     max-width: 40rem;
     padding: 2rem;
     text-align: justify;
+}
+
+/* Datos */
+
+
+.deja_tus_datos{
+    display: flex;
+    max-width: 100rem;
+    margin: auto;
+}
+.botones_datos_parrafo{
+    max-width: 42rem;
+    text-align: justify;
+    padding: 0 5rem 0 4rem;
+    font-size: 1.4rem;
+}
+.botones_datos{
+    margin: auto;
+
+}
+.foto-dueña img{
+    max-width: 52rem;
+    display: flex;
+}
+
+
+/* DOnaciones */
+
+
+.donacion{
+    max-width: 120rem;
+   margin: auto;
+}
+.playpal, .donacion p{
+    text-align: center;
+    padding: 3rem;
+}
+.playpal img{
+    max-width: 30rem;
+}
+.botones-tarjeta{
+    max-width: 50rem;
+    display: flex;
+    margin: auto;
+
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+/* footer */
+
+
+.footer_convive{
+    background-image: url(../img/perro_dueña_2.jpg);
+    height: 80vh;
+    min-height: 5rem;
+    background-position: center center;
+    background-size: cover;
+}
+.footer_convive img{
+    text-align: center;
+    max-width: 10rem;
+    margin-left: 58rem;
+    margin-top: 40rem;
 }
