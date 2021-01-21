@@ -106,7 +106,7 @@ function diamesaño4() {
 	alert("Fecha correcta");
 }
 
-function nombre_tarjeta () {
+function nombre_tarjeta() {
 	var nombre01;
 	nombre01 = String(prompt("Ingresa fecha de expiración (DD/MM/AAAA)"));
 	alert("Fecha correcta");
@@ -124,7 +124,7 @@ function numero_tarjeta () {
 	alert("Número correcto");
 }
 
-function codigo_seguridad () {
+function codigo_seguridad() {
 	var nombre01;
 	nombre01 = Number(prompt("Ingresa el código de seguridad (3 dígitos)"));
 	alert("Número correcto");
