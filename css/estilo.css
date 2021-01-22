@@ -156,7 +156,7 @@ h1, h2{
     color: white;
 }
 .boton{
-    margin-left: 8rem;
+    margin-left: 4rem;
     margin-bottom: 5rem;
 }
 .boton a{
@@ -317,7 +317,7 @@ h1, h2{
 .contenedor_dona{
     display: flex;
     text-align: center;
-    margin-left: 33rem;
+    margin-left: 32rem;
     max-width: 100rem;
 }
 .dona_perro img{
@@ -362,18 +362,31 @@ max-width: 30rem;
 }
 .playpal, .donacion p{
     text-align: center;
-    padding: 3rem;
 }
 .playpal img{
     max-width: 30rem;
+    margin-bottom: 2rem;
 }
 .botones-tarjeta{
-    max-width: 50rem;
+    max-width: 30rem;
     display: flex;
-    margin: auto;
-
     text-align: center;
-    justify-content: space-between;
+    margin-left: 28rem;
+    margin-top: 5rem;
+}
+.boton{
+    text-decoration: none;
+    background-color: #037594;
+    color: white;
+    padding: 2rem 3rem 2rem 3rem;
+}
+.boton_blanco{
+    text-decoration: none;
+    background-color: white;
+    color: #037594;
+    padding: 2rem 3rem 2rem 3rem;
+    margin-left: 8rem;
+    margin-bottom: 5rem;
 }
 
 
