@@ -84,7 +84,7 @@ body{
     text-align: center;
 }
 h1, h2{
-    padding: 8rem;
+    padding: 1.5rem;
     text-align: center;
     font-size: 3rem;
     color: #037594;
@@ -130,7 +130,7 @@ h1, h2{
 
 .adopta {
     background-color: #037594;
-    margin-top: 8rem;
+    margin-top: 1.5rem;
 }
 .adopta h2{
     color: white;
@@ -141,6 +141,7 @@ h1, h2{
     font-size: 1.5rem;
     color: rgb(65, 63, 63);
     max-width: 100rem;
+    height: 45rem;
     margin: auto;
 }
 .proseso_texto{
@@ -152,12 +153,11 @@ h1, h2{
     font-size: 2rem;
     font-size: 1.8rem;
     text-align: justify;
-    margin-bottom: 5rem;
     color: white;
 }
 .boton{
     margin-left: 4rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 .boton a{
     text-decoration: none;
@@ -201,10 +201,10 @@ h1, h2{
 }
 .footer_azul{
     display: flex;
-    margin-top: 3rem;
+    margin-top: 1rem;
     text-decoration: none;
     color: white;
-    padding: 4rem;
+    padding: -1rem;
 }
 .contactanos{
     text-align: right;
@@ -221,7 +221,7 @@ h1, h2{
 }
 .footer_redes{
     text-align: center;
-    padding: 3rem;
+    padding: 1rem;
 }
 .footer_redes a{
     text-decoration: none;
