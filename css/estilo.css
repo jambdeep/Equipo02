@@ -84,7 +84,7 @@ body{
     text-align: center;
 }
 h1, h2{
-    padding: 1.5rem;
+    padding: 2.5rem;
     text-align: center;
     font-size: 3rem;
     color: #037594;
@@ -130,7 +130,8 @@ h1, h2{
 
 .adopta {
     background-color: #037594;
-    margin-top: 1.5rem;
+    margin-top: -2.5rem;
+    margin-bottom: -3rem;
 }
 .adopta h2{
     color: white;
@@ -141,8 +142,12 @@ h1, h2{
     font-size: 1.5rem;
     color: rgb(65, 63, 63);
     max-width: 100rem;
-    height: 45rem;
-    margin: auto;
+    height: 40rem;
+    margin: auto; 
+    margin-top: -3rem;
+    margin-bottom:-1rem; 
+
+   
 }
 .proseso_texto{
     max-width: 40rem;
@@ -153,12 +158,10 @@ h1, h2{
     font-size: 2rem;
     font-size: 1.8rem;
     text-align: justify;
+    margin-bottom: -1.5rem;
     color: white;
 }
-.boton{
-    margin-left: 4rem;
-    margin-bottom: 3rem;
-}
+
 .boton a{
     text-decoration: none;
     text-align: center;
@@ -201,7 +204,7 @@ h1, h2{
 }
 .footer_azul{
     display: flex;
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-decoration: none;
     color: white;
     padding: -1rem;
