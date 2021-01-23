@@ -289,6 +289,21 @@ h1, h2{
     color: white;
     font-weight: 600;
 }
+
+.menu_principal{
+    margin-bottom: 10rem;
+}
+.menu_principal a{
+    max-width: 20rem;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 52.5rem;
+    padding: 1rem 4rem 1rem 4rem;
+    background-color: #02485c;
+    color: white;
+    font-weight: 600;
+}
+
 .footer_adopta{
     background-image: url(../img/perros-felices-corriendo\ copy.jpg);
     height: 80vh;
